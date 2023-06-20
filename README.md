@@ -1,4 +1,4 @@
-# Dzfrias Formulae
+# dzfrias' Formulae
 
 ## How do I install these formulae?
 
@@ -6,6 +6,6 @@
 
 Or `brew tap dzfrias/formulae` and then `brew install <formula>`.
 
-## Documentation
+## Formulae
 
-`brew help`, `man brew` or check [Homebrew's documentation](https://docs.brew.sh).
+- [projectable](https://github.com/dzfrias/projectable), a highly configurable TUI project manager
