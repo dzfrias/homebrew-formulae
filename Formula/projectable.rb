@@ -1,5 +1,5 @@
 class Projectable < Formula
-  desc "A highly configurable TUI project manager."
+  desc "Highly configurable TUI project manager"
   homepage "https://github.com/dzfrias/projectable"
   url "https://github.com/dzfrias/projectable/archive/refs/tags/0.2.0.tar.gz"
   version "0.2.0"
@@ -8,7 +8,6 @@ class Projectable < Formula
   depends_on "rust" => :build
 
   def install
-    system "cargo", "build", "--release"
-    bin.install "target/release/prj"
+    system "cargo", "install", *std_cargo_args
   end
 end
