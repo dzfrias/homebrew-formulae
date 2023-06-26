@@ -1,8 +1,8 @@
 class Projectable < Formula
   desc "Highly configurable TUI project manager"
   homepage "https://github.com/dzfrias/projectable"
-  url "https://github.com/dzfrias/projectable/archive/refs/tags/1.0.0.tar.gz"
-  sha256 "5199a6acd40e3707f12f5446c5740061f32f2d14b96b47117ff77946efc32df1"
+  url "https://github.com/dzfrias/projectable/archive/refs/tags/1.1.0.tar.gz"
+  sha256 "9add5870d108af8ea9e77b9862541870b48d8fd71c15955181157db514bdaf7a"
 
   depends_on "rust" => :build
 
